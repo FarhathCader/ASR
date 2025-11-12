@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import AudioRecorder from "./AudioRecorder";
+import AudioRecorder from "./AudioRecorder.jsx";
 
 function App() {
   const [transcription, setTranscription] = useState("");
